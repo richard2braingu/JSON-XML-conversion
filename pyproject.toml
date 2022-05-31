@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jsontoxml"
+version = "0.1.0"
+description = ""
+authors = ["Richard Pajerski <richard.pajerski@braingu.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dict2xml = "^1.7.1"
+xmltodict = "^0.13.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

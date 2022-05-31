@@ -1,0 +1,32 @@
+[[package]]
+name = "dict2xml"
+version = "1.7.1"
+description = "Small utility to convert a python dictionary into an XML string"
+category = "main"
+optional = false
+python-versions = ">= 3.5"
+
+[package.extras]
+tests = ["noseOfYeti (==2.1.0)", "pytest (==6.2.5)"]
+
+[[package]]
+name = "xmltodict"
+version = "0.13.0"
+description = "Makes working with XML feel like you are working with JSON"
+category = "main"
+optional = false
+python-versions = ">=3.4"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "752e4bba8b5d4466c6c84b2e88fd62a9d2d99151b3c5016d6573f82547240054"
+
+[metadata.files]
+dict2xml = [
+    {file = "dict2xml-1.7.1.tar.gz", hash = "sha256:6600aa331f17eee3833611f71899a43a76612ca755a15769cf20492c4b1aa016"},
+]
+xmltodict = [
+    {file = "xmltodict-0.13.0-py2.py3-none-any.whl", hash = "sha256:aa89e8fd76320154a40d19a0df04a4695fb9dc5ba977cbb68ab3e4eb225e7852"},
+    {file = "xmltodict-0.13.0.tar.gz", hash = "sha256:341595a488e3e01a85a9d8911d8912fd922ede5fecc4dce437eb4b6c8d037e56"},
+]
